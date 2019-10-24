@@ -41,7 +41,9 @@ Twitterのアカウントを取得し、こちらの内容に沿ってTwitterの
 
 - 『TwistOAuth』  
 https://github.com/mpyw-junks/TwistOAuth  
+APIの申請が完了したら実際にAPIを使用するわけですが、コード書くのが大変なのでライブラリを使用します。  
 Qiitaで有名なmpywさんのTwistOAuthを使います。  
+使い方は簡単で、TwistOAuth.pharをrequireしてあげるだけでokです。  
 curlを使用しているライブラリなので、phpにcurlを導入するする必要ありです。  
 windos環境は導入が面倒なので注意。  
 
