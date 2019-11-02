@@ -39,6 +39,7 @@ if (!empty($key_word)) {
 	}
 
 	// 投稿日時の降順にソート
+	$sort = [];
 	foreach ($tweets as $key => $value) {
 		$sort[$key] = $value->created_at;
 	}
