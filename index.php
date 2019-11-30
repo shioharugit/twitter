@@ -30,6 +30,8 @@ if (!empty($key_word)) {
 		if ($search_word !== "") {
 			$tweets_params = ['q' => $search_word,'count' => '100'];
 			$tweets = array_merge($tweets, $connection->get('search/tweets', $tweets_params)->statuses);
+			// APIを叩く間隔をあけるためスリープ
+			sleep(1);
 		}
 	}
 
