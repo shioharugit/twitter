@@ -1,5 +1,5 @@
 # Twitterでのエゴサーチを便利にしたかった
-TwitterREST APIを用いた検索ツールです
+TwitterREST APIを用いた検索ツールです    
 ※2023年5月頃のTwitterのAPI仕様変更に伴い、現在は使用できません…
 跡地として残しておきます。
 
